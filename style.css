@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+/* Carousel Styles */
+.carouselImage{
+    width: 850px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+#myCarousel{
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.carousel-caption{
+    font-family: "righteous", cursive;
+}
+.cap{
+    color: yellow;
+    font-family: "righteous", cursive;
+    font-size: 30px;
+}
+.centerText{
+  text-align: center;
+  font-weight: bold;
+}
+.images{
+  height:80%;
+  width:100%;
+  
+}
+body {
+  font-family: "Verdana";
+  margin: 2em;
+  background: #fffbd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffbd5, #b20a2c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffbd5, #b20a2c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+#heading{
+  color: Black;
+  display:inline-block;
+  font-family:"righteous", cursive;
+}
+/*Heading Styles */
+
+#myface{
+  Height:40px;
+  Width:auto;
+  border-radius: 50%;
+  
+}
+.author{
+  display:inline-block;
+}
+/* Navbar Styling */
+.navbar .navbar-default{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  border:20px;
+  font-weight: bold;
+  position: absolute;
+}
+.navbar-brand{
+  color:blue
+}
+.paragraph{
+  font-size: 18px;
+  font-family: "verdana";
+}
+#logo{
+  float:left;
+}
+#bodyWork{
+  margin:20px;
+/*   width:50%; */
+}
